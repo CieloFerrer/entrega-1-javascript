@@ -1,0 +1,39 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(-45deg, #ffcae3, #f1d7b0);
+  background-attachment: fixed;
+  margin: 50px;
+  padding: 30px;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.columna {
+  flex: 1;
+  min-width: 300px;
+}
+
+.imagen img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.texto {
+  max-width: 600px;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: larger;
+}
+
