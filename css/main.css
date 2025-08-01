@@ -1,8 +1,8 @@
 /*reset*/
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   background-attachment: fixed;
   margin: 50px;
   padding: 30px;
+  font-family: sans-serif;
 }
 
 .contenedor {
@@ -35,5 +36,82 @@ body {
   text-align: left;
   font-family: sans-serif;
   font-size: larger;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#interaccion-usuario {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+#interaccion-usuario h2, #interaccion-usuario h3 {
+  color: #a8427f;
+  margin-bottom: 15px;
+}
+
+#seccion-nombre, #seccion-pedido, #seccion-carrito {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px dashed #eee;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #d16b9b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a8427f;
+}
+
+#lista-carrito {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+#lista-carrito li {
+  padding: 8px 0;
+  border-bottom: 1px dotted #eee;
+}
+
+#lista-carrito li:last-child {
+  border-bottom: none;
+}
+
+#total-presupuesto {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #a8427f;
 }
 
